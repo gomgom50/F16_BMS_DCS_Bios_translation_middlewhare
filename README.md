@@ -16,3 +16,5 @@ The middle layer forwards the messages received to DCS if in DCS mode, or transl
 
 This simplifies Arduino coding, as the Python code does all the preprocessing, making programming the Arduinos simple using DCS BIOS. This also means that I do not have to use more expensive Arduinos that can act as HID devices; any Arduino will work fine. For axes in BMS, I use vJoy to emulate a joystick and then use its Python bindings to send the axis commands from the potentiometers to the virtual joystick.
 
+### To be clear
+This project is not ment to be a universal solution but a solution for my specific case. Feel free to look through the code, and adapt anything you like to your own project.
