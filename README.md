@@ -8,6 +8,9 @@ This project integrates code from the following repositories:
 
 Credit goes to the original authors.
 
+### WIP
+This project is a work in progress and is not yet ready for use.
+
 ### Why
 
 I wanted to start building my own F-16 cockpit but found that there was no good pre-made solution for handling both input and output from DCS and BMS in a unified way. So, I built this relatively simple Python "intermediary" translation layer that has functions to communicate with both DCS and BMS. This layer uses the excellent [DCS BIOS](https://github.com/DCS-Skunkworks/dcs-bios) for direct communication with DCS and also as the core code that runs on the Arduinos.
