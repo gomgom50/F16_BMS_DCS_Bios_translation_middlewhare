@@ -1,0 +1,9 @@
+{
+  "arduinos": [
+    {
+      "name": "DED",
+      "com_port": "COM4",
+      "baud_rate": 250000
+    }
+  ]
+}
